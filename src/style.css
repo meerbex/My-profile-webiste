@@ -1,0 +1,31 @@
+*{
+  scroll-behavior: smooth;
+  padding: 0;
+  margin:0;
+}
+.welcome-section {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.fa{
+  color: white;
+  font-size: 50px;
+}
+.fa:hover{
+  transition: 0.5s;
+  color: #3498db
+}
+.nav-link:hover {
+  transition: 0.5s;
+  background: #3498db;
+  color: white !important;
+}
+body{
+    background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
